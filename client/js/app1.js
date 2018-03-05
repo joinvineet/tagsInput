@@ -28,6 +28,7 @@ typeAhead.controller('TypeAheadController',function($scope, dataFactory){
 	};
 });
 
+
 typeAhead.factory('dataFactory', function($http) {
   return {
     get: function(url) {
